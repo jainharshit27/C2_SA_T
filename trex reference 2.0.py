@@ -13,7 +13,6 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
-            sys.exit()
     
     cactus_rect.x = cactus_rect.x - 1
     if cactus_rect.x <= -30:
